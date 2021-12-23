@@ -1,0 +1,14 @@
+body {
+  background-image: url(./rockpaperscissors.png);
+}
+.rock-paper-scissors {
+  background-color: #ffffff;
+  display: block;
+  padding-bottom: 0%;
+  text-align: center;
+  z-index: 20;
+}
+
+.row {
+  height: 300px;
+}

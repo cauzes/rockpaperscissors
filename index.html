@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="container-fluid">
+      <article class="row">
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+      </article>
+      <article class="row">
+        <div class="col-4"></div>
+        <div class="rock-paper-scissors border col-4">
+          <h1>Rock Paper Scissors Game</h1>
+
+          <form action="">
+            <label for="fname"><strong>Choose a hand:</strong></label
+            ><br /><br />
+            <label for="rock">Rock</label>
+            <input type="radio" id="rock" name="rock" value="rock" />
+            <label for="paper">Paper</label>
+            <input type="radio" id="paper" name="rock" value="paper" />
+            <label for="scissor">Scissor</label>
+            <input type="radio" id="scissor" name="rock" value="scissor" />
+
+            <br />
+
+            <p class="win-or-lose"></p>
+
+            <input type="button" value="Random hand" class="button" />
+          </form>
+          <div class="col-4"></div>
+        </div>
+      </article>
+      <article class="row">
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+      </article>
+    </section>
+    <!-- scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
